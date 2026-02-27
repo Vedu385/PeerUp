@@ -1,0 +1,42 @@
+{
+  "students": [
+    {
+      "id": "4b0e",
+      "name": "dev",
+      "email": "xyz@gmail.com",
+      "password": "devansh",
+      "skills": []
+    },
+    {
+      "id": "278e",
+      "name": "Yash",
+      "email": "yash123@gmail.com",
+      "password": "Yash@18",
+      "skills": [
+        "DSA",
+        "Cloud Computing"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "id": "24d7",
+      "name": "pokemon",
+      "email": "xyz@gmail.com",
+      "department": "CSE",
+      "password": "pikachu",
+      "skills": []
+    },
+    {
+      "id": "553b",
+      "name": "pokemon123",
+      "email": "tewarivedant987@gmail.com",
+      "department": "CSE",
+      "password": "yash1233",
+      "skills": [
+        "Data Science",
+        "Cloud Computing"
+      ]
+    }
+  ]
+}
