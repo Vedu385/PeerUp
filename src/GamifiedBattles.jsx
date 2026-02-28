@@ -68,6 +68,7 @@ const GamifiedBattles = () => {
               Test your reaction time in this fast-paced challenge.
             </p>
           </div>
+
           <div 
             onClick={() => navigate("/battles/sorting")}
             className="bg-yellow-100 p-6 rounded-2xl cursor-pointer hover:shadow-lg transition"
@@ -77,6 +78,18 @@ const GamifiedBattles = () => {
             </h2>
             <p className="text-sm text-gray-800 font-bold">
               Drag and drop items into the correct categories.
+            </p>
+          </div>
+
+          <div 
+            onClick={() => navigate("/battles/soundrecognition")}
+            className="bg-pink-100 p-6 rounded-2xl cursor-pointer hover:shadow-lg transition"
+            >
+            <h2 className="font-semibold text-lg mb-3 text-gray-800">
+              🧠 Sound Recognition Game
+            </h2>
+            <p className="text-sm text-gray-800 font-bold">
+              Listen and identify the correct sound.
             </p>
           </div>
 

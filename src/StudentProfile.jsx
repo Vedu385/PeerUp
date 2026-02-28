@@ -50,7 +50,9 @@ const StudentProfile = () => {
           </button>
 
           <button
-            onClick={() => alert("📞 Voice Call Started (Demo Mode)")}
+            onClick={() =>
+  navigate(`/call/${encodeURIComponent(decodedName)}-voice`)
+}
             className="flex items-center gap-2 bg-green-600 text-white px-5 py-2 rounded-xl hover:bg-green-700 transition"
           >
             <FaPhone /> Voice Call
