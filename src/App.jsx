@@ -13,6 +13,9 @@ import Leaderboard from "./Leaderboard";
 import ColorGame from "./colorMatch";
 import ReactionGame from "./reactionGame";
 import ReactQuizGame from "./RamQuiz";
+import MemoryGame from "./memoryMatch";
+import SortingGame from "./dragdropSort";
+
 
 function App() {
   return (
@@ -28,6 +31,8 @@ function App() {
       <Route path="/battles/nqueens" element={<NQueens />} /> 
       <Route path="/battles/colormatch" element={<ColorGame />} /> 
       <Route path="/battles/reaction" element={<ReactionGame />} /> 
+      <Route path="/battles/memory" element={<MemoryGame />} /> 
+      <Route path="/battles/sorting" element={<SortingGame />} /> 
       <Route path="/leaderboard" element={<Leaderboard />} />
       
 

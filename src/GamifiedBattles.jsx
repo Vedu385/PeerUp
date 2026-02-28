@@ -45,6 +45,19 @@ const GamifiedBattles = () => {
           </div>
 
           <div 
+            onClick={() => navigate("/battles/memory")}
+            className="bg-purple-100 p-6 rounded-2xl cursor-pointer hover:shadow-lg transition"
+            >
+            
+            <h2 className="font-semibold text-lg mb-3 text-gray-800">
+              🧠 Memory Matching Game
+            </h2>
+            <p className="text-sm text-gray-800 font-bold">
+              Memory Match Game for autism support is ideal because it builds memory, focus, and pattern recognition.
+            </p>
+          </div>
+
+          <div 
             onClick={() => navigate("/battles/reaction")}
             className="bg-green-100 p-6 rounded-2xl cursor-pointer hover:shadow-lg transition"
             >
@@ -53,6 +66,17 @@ const GamifiedBattles = () => {
             </h2>
             <p className="text-sm text-gray-800 font-bold">
               Test your reaction time in this fast-paced challenge.
+            </p>
+          </div>
+          <div 
+            onClick={() => navigate("/battles/sorting")}
+            className="bg-yellow-100 p-6 rounded-2xl cursor-pointer hover:shadow-lg transition"
+            >
+            <h2 className="font-semibold text-lg mb-3 text-gray-800">
+              🧠 Sorting Game
+            </h2>
+            <p className="text-sm text-gray-800 font-bold">
+              Drag and drop items into the correct categories.
             </p>
           </div>
 
